@@ -1,0 +1,183 @@
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Data\Work\รวม Code Manament\Bussinesslist\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmMangements.dll.config
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmMangements.dll
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmMangements.pdb
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmManagements\frmMangements.dll.config
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmManagements\frmMangements.dll
+D:\Data\Work\รวม Code Manament\Bussinesslist\DLL\frmManagements\frmMangements.pdb
+D:\Data\Work\Management ORG\DLL\frmManagements\frmMangements.dll.config
+D:\Data\Work\Management ORG\DLL\frmManagements\frmMangements.dll
+D:\Data\Work\Management ORG\DLL\frmManagements\frmMangements.pdb
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Data\Work\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\DLL\frmManagements\frmMangements.dll.config
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\DLL\frmManagements\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\DLL\frmManagements\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F44\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\DLL\frmManagements\frmMangements.dll.config
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\DLL\frmManagements\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\DLL\frmManagements\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll.config
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.pdb
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Data\Work\BOT_ALL\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll.config
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.pdb
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thanes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll.config
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.dll
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\DLL\frmManagements\frmMangements.pdb
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thaes_Data\BOT\แบบสำรวจ F46\Management ORG2\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\Management\DLL\frmManagements\frmMangements.dll.config
+D:\Thaes_Data\WorkSpace_app\Management\DLL\frmManagements\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\Management\DLL\frmManagements\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thaes_Data\Management_Workspace_1.0\Management\DLL\frmManagements\frmMangements.dll.config
+D:\Thaes_Data\Management_Workspace_1.0\Management\DLL\frmManagements\frmMangements.dll
+D:\Thaes_Data\Management_Workspace_1.0\Management\DLL\frmManagements\frmMangements.pdb
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thaes_Data\Management_Workspace_1.0\Management\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\Management_V1\DLL\frmManagements\frmMangements.dll.config
+D:\Thaes_Data\WorkSpace_app\Management_V1\DLL\frmManagements\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\Management_V1\DLL\frmManagements\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\DLL\frmManagements\frmMangements.dll.config
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\DLL\frmManagements\frmMangements.dll
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\DLL\frmManagements\frmMangements.pdb
+D:\Thaes_Data\WorkSpace_app\TimeToon\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+E:\Time\Management_V1\DLL\frmManagements\frmMangements.dll.config
+E:\Time\Management_V1\DLL\frmManagements\frmMangements.dll
+E:\Time\Management_V1\DLL\frmManagements\frmMangements.pdb
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+E:\Time\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+C:\Users\Next\Desktop\Time1\Management_V1\DLL\frmManagements\frmMangements.dll.config
+C:\Users\Next\Desktop\Time1\Management_V1\DLL\frmManagements\frmMangements.dll
+C:\Users\Next\Desktop\Time1\Management_V1\DLL\frmManagements\frmMangements.pdb
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+C:\Users\Next\Desktop\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\Time1\Management_V1\DLL\frmManagements\frmMangements.dll.config
+D:\Time1\Management_V1\DLL\frmManagements\frmMangements.dll
+D:\Time1\Management_V1\DLL\frmManagements\frmMangements.pdb
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\ResolveAssemblyReference.cache
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\DLL\frmManagements\frmMangements.dll.config
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\DLL\frmManagements\frmMangements.dll
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\DLL\frmManagements\frmMangements.pdb
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csprojResolveAssemblyReference.cache
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+C:\Users\9likhit\Desktop\Project_Stock\Time1\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+C:\Users\Thanunchai\Desktop\Management_V1\DLL\frmManagements\frmMangements.dll.config
+C:\Users\Thanunchai\Desktop\Management_V1\DLL\frmManagements\frmMangements.dll
+C:\Users\Thanunchai\Desktop\Management_V1\DLL\frmManagements\frmMangements.pdb
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csprojResolveAssemblyReference.cache
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+C:\Users\Thanunchai\Desktop\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+E:\MyStock\Management_V1\DLL\frmManagements\frmMangements.dll.config
+E:\MyStock\Management_V1\DLL\frmManagements\frmMangements.dll
+E:\MyStock\Management_V1\DLL\frmManagements\frmMangements.pdb
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csprojResolveAssemblyReference.cache
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+E:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb
+D:\MyStock\Management_V1\DLL\frmManagements\frmMangements.dll.config
+D:\MyStock\Management_V1\DLL\frmManagements\frmMangements.dll
+D:\MyStock\Management_V1\DLL\frmManagements\frmMangements.pdb
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csprojResolveAssemblyReference.cache
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.frmMain.resources
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.Properties.Resources.resources
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.UserControl1.resources
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.csproj.GenerateResource.Cache
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.dll
+D:\MyStock\Management_V1\frmMangements version1.1\frmMangements\obj\Debug\frmMangements.pdb

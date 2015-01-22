@@ -1,0 +1,30 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="Employee" Type="STR">
+      <Items Name="Employee" Type="FIX">
+        <Item Name="EMPLOYEE_NAME" Type="STR" Value=""  />
+        <Item Name="EMPLOYEE_ADDRESS" Type="STR" Value=""  />
+        <Item Name="WORK_DAY"  Type="STR" Value=""  />
+        <Item Name="WORK_TIME" Type="STR" Value=""  />
+        <Item Name="RESPONSIBILITY" Type="STR" Value=""  />
+        <Item Name="EMPLOYEE_TEL" Type="STR" Value=""  />
+        <Item Name="EMPLOYEE_LINEID" Type="STR" Value=""  />
+        <Item Name="ID_CARD" Type="STR" Value=""  />
+        <Item Name="ISSUE" Type="STR" Value=""  />
+        <Item Name="EXPIRE_DATE" Type="STR" Value=""  />
+        <Item Name="EMPLOYEE_DETAIL" Type="STR" Value=""  />
+        <Item Name="CREATE_BY" Type="STR" Value=""  />
+        <Item Name="CREATE_TIME" Type="STR" Value=""  />
+        <Item Name="EDIT_BY" Type="STR" Value=""  />
+        <Item Name="EDIT_TIME" Type="STR" Value=""  />
+      </Items>
+    </Section>
+  </Data>
+</Document>

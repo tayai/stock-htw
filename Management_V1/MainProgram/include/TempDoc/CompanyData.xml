@@ -1,0 +1,37 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="CompanyData" Type="STR">
+      <Items Name="CompanyData" Type="FIX">
+        <Item Name="NAMETH" Type="STR" />
+        <Item Name="NAMEEN" Type="STR" />
+        <Item Name="OFFICEADDRESS"  Type="STR" />
+        <Item Name="OFFICETEL" Type="STR" />
+        <Item Name="OFFICEFAX" Type="STR" />
+        <Item Name="OFFICEEMAIL" Type="STR" />
+        <Item Name="OFFICELINEID" Type="STR" />
+        <Item Name="WEBSITE" Type="STR" />
+        <Item Name="TAXID" Type="STR" />
+        <Item Name="BSNREGIS" Type="STR" />
+      </Items>
+    </Section>
+    <Section ID="2" Name="Branch" Type="STR">
+      <Items Name="Branch" Type="SEQ">
+        <Means Name="Detail">
+          <Mean ID="C00" Name="BRANCHNO" Type="STR" />
+          <Mean ID="C01" Name="BRANCHNAME" Type="STR" />
+          <Mean ID="C02" Name="BRANCHADDRESS" Type="STR" />
+          <Mean ID="C03" Name="BRANCHTEL" Type="STR" />
+          <Mean ID="C04" Name="BRANCHFAX" Type="STR" />
+        </Means>
+        <Item C00="" C01="" C02="" C03="" C04="" />
+      </Items>
+    </Section>
+  </Data>
+</Document>

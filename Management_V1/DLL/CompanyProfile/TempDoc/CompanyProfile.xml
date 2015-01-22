@@ -1,0 +1,32 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="Profile" Type="STR">
+      <Items Name="Profile" Type="FIX">
+        <Item Name="NameTh" Type="STR" Value="" />
+        <Item Name="NameEn" Type="STR" Value="" />
+        <Item Name="Email" Type="STR" Value="" />
+        <Item Name="LineID" Type="STR" Value="" />
+        <Item Name="Website" Type="STR" Value="" />
+        <Item Name="TaxID" Type="STR" Value="" />
+      </Items>
+    </Section>
+    <Section ID="2" Name="Branch" Type="STR">
+      <Items Name="Branch" Type="SEQ">
+        <Means Name="Branch">
+          <Mean ID="C00" Name="ชื่อสาขา" Type="STR" />
+          <Mean ID="C01" Name="ที่อยู่" Type="STR" />
+          <Mean ID="C02" Name="โทรศัพท์" Type="STR" />
+          <Mean ID="C03" Name="แฟกซ์" Type="STR" />
+        </Means>
+        <Item C00="" C01="" C02="" C03="" />
+      </Items>
+    </Section>
+  </Data>
+</Document>

@@ -1,0 +1,13 @@
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.csprojResolveAssemblyReference.cache
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.Properties.Resources.resources
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.csproj.GenerateResource.Cache
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\ProductType.dll.config
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\ProductType.dll
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\ProductType.pdb
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.dll
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.pdb
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\TempDoc\ProductType.xml
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\Config\ComboBoxSource.xml
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\Config\PopupSource.xml
+D:\MyStock\Management_V1\MainProgram\ProductTypeDB\Config\RadioButtonSource.xml
+D:\MyStock\Management_V1\MainProgram\ProductType\obj\x86\Debug\ProductType.Form1.resources

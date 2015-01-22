@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MainProgram">
+</Property><Property Name="Solution File" Value="D:\MyStock\Management_V1\MainProgram\MainProgram.sln">
+</Property><Property Name="Date" Value="27 ตุลาคม 2557">
+</Property><Property Name="Time" Value="16:54:35">
+</Property></Properties><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj" Description="Project file successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ToolsDocument.csproj">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj.user" Description="Project user file successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ToolsDocument.csproj.user">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\cImage.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\cImage.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\DocumentControls.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\DocumentControls.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmEntry.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmEntry.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmEntry.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmEntry.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmPopup.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmPopup.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmPopup.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmPopup.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Program.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\StandardDocument.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\StandardDocument.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\TransformXml.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\TransformXml.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucCheckBox.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucCheckBox.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucCheckBox.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucCheckBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucComboBox.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucComboBox.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucComboBox.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucComboBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDataGridView.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDataGridView.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDataGridView.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDataGridView.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDateTimePicker.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDateTimePicker.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDateTimePicker.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDateTimePicker.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDoubleTextBox.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDoubleTextBox.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDoubleTextBox.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDoubleTextBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucMappingControls.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucMappingControls.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucMappingControls.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucMappingControls.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucNumericUpDown.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucNumericUpDown.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucNumericUpDown.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucNumericUpDown.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPictureImage.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPictureImage.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPictureImage.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPictureImage.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPopup.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPopup.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPopup.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPopup.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRadioButton.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRadioButton.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRadioButton.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRadioButton.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRichTextBox.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRichTextBox.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRichTextBox.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRichTextBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucTextBox.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucTextBox.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucTextBox.Designer.cs" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucTextBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Properties\Settings.settings" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Config\ComboBoxSource.xml" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Config\ComboBoxSource.xml">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Config\PopupSource.xml" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Config\PopupSource.xml">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Config\RadioButtonSource.xml" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Config\RadioButtonSource.xml">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmEntry.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmEntry.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\frmPopup.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\frmPopup.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\Properties\Resources.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucCheckBox.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucCheckBox.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucComboBox.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucComboBox.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDataGridView.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDataGridView.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDateTimePicker.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDateTimePicker.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucDoubleTextBox.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucDoubleTextBox.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucMappingControls.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucMappingControls.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucNumericUpDown.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucNumericUpDown.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPictureImage.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPictureImage.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucPopup.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucPopup.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRadioButton.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRadioButton.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucRichTextBox.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucRichTextBox.resx">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ucTextBox.resx" Description="File successfully backed up as D:\MyStock\Management_V1\MainProgram\Backup\ucTextBox.resx">
+</Event><Event ErrorLevel="1" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ToolsDocument" Source="ToolsDocument\ToolsDocument.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

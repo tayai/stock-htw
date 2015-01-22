@@ -1,0 +1,20 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="PayerPayee" Type="STR">
+      <Items Name="PayerPayee" Type="FIX">
+        <Item Name="PAYER_PAYEE" Type="STR" Value=""  />
+        <Item Name="CREATE_BY"  Type="STR" Value=""  />
+        <Item Name="CREATE_TIME" Type="STR" Value=""  />
+        <Item Name="EDIT_BY" Type="STR" Value=""  />
+        <Item Name="EDIT_TIME" Type="STR" Value=""  />
+      </Items>
+    </Section>
+  </Data>
+</Document>

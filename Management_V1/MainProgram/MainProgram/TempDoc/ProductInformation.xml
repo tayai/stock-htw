@@ -1,0 +1,35 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="ProductInformation" Type="STR">
+      <Items Name="ProductInformation" Type="FIX">
+        <Item Name="PRODUCT_CODE" Type="STR" Value=""  />
+        <Item Name="PRODUCT_NAME" Type="STR" Value=""  />
+        <Item Name="PRODUCT_GROUP" Type="STR" Value=""  />
+        <Item Name="PRODUCT_CATEGORY" Type="STR" Value=""  />
+        <Item Name="UNIT_TYPE" Type="STR" Value=""  />
+        <Item Name="POINT_OF_ORDER" Type="STR" Value=""  />
+        <Item Name="PRICE1" Type="STR" Value=""  />
+        <Item Name="PRICE2" Type="STR" Value=""  />
+        <Item Name="PRICE3" Type="STR" Value=""  />
+        <Item Name="PRICE4" Type="STR" Value=""  />
+        <Item Name="PRICE5" Type="STR" Value=""  />
+        <Item Name="PRICE6" Type="STR" Value=""  />
+        <Item Name="PRICE7" Type="STR" Value=""  />
+        <Item Name="PRICE8" Type="STR" Value=""  />
+        <Item Name="PRICE9" Type="STR" Value=""  />
+        <Item Name="PRICE10" Type="STR" Value=""  />
+        <Item Name="DETAIL" Type="STR" Value=""  />
+        <Item Name="CREATE_BY" Type="STR" Value=""  />
+        <Item Name="EDIT_BY" Type="STR" Value=""  />
+        <Item Name="DATE_TIME" Type="STR" Value=""  />
+      </Items>
+    </Section>
+  </Data>
+</Document>

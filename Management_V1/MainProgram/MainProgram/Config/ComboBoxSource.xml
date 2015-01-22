@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSources>
+	<DataSource ID="1" Name="Sex" Type="Item">
+		<Item Text="ชาย" Value="ชาย"/>
+		<Item Text="หญิง" Value="หญิง"/>
+	</DataSource>
+	<DataSource ID="2" Name="Prefix" Type="Item">
+		<Item Text="นาย" Value="นาย"/>
+		<Item Text="นาง" Value="นาง"/>
+		<Item Text="นางสาว" Value="นางสาว"/>
+	</DataSource>
+	<DataSource ID="3" Name="Warehouse" Type="Item">
+		<Item Text="คลังสินค้า1" Value="คลังสินค้า1"/>
+		<Item Text="คลังสินค้า2" Value="คลังสินค้า2"/>
+		<Item Text="คลังสินค้า3" Value="คลังสินค้า3"/>
+		<Item Text="คลังสินค้า4" Value="คลังสินค้า4"/>
+	</DataSource>
+	<DataSource ID="4" Name="Wareid" Type="Item">
+		<Item Text="HW0001" Value="HW0001"/>
+		<Item Text="HW0002" Value="HW0002"/>
+		<Item Text="HW0003" Value="HW0003"/>
+		<Item Text="HW0004" Value="HW0004"/>
+	</DataSource>	
+</DataSources>

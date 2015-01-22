@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Thanunchai\Desktop\publish\|ftp://ftp.hughawk01.com/htw_stock/|https://sng002.hawkhost.com:2083/cpsess4535035968/frontend/x3/filemanager/index.html%3fdirselect=domainrootselect&amp;domainselect=hawk17.hughawk01.com&amp;dir=%252Fhome%252Fhughawkc%252Fpublic_html%252Fhawk17&amp;showhidden=1/|C:\Users\Next\Desktop\ll\iii\|C:\Users\Next\Desktop\ll\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

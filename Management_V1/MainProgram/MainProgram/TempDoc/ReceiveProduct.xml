@@ -1,0 +1,47 @@
+﻿<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="ReceiveProduct" Type="STR">
+      <Items Name="ReceiveProduct" Type="FIX">
+        <Item Name="INCLUDE_VAT" Type="STR" Value="" />
+        <Item Name="EXCLUDE_VAT" Type="STR" Value="" />
+        <Item Name="DATE_RECEIVE" Type="STR" Value="" />
+        <Item Name="DOCUMENT_NO" Type="STR" Value="" />
+        <Item Name="SUPPLIER_NAME" Type="STR" Value="" />
+        <Item Name="PRIVILEGE_DISCOUNT" Type="STR" Value="" />
+        <Item Name="SALE_DISCOUNT" Type="STR" Value="" />
+        <Item Name="TOTAL_AMOUNT" Type="STR" Value="" />
+        <Item Name="DISCOUNT" Type="STR" Value="" />
+        <Item Name="AMOUNT" Type="STR" Value="" />
+        <Item Name="VAT" Type="STR" Value="" />
+        <Item Name="TOTAL" Type="STR" Value="" />
+        <Item Name="GRAND_TOTAL" Type="STR" Value="" />
+        <Item Name="RECEIVE_DETAIL" Type="STR" Value="" />
+        <Item Name="CREATE_BY" Type="STR" Value="" />
+        <Item Name="CREATE_TIME" Type="STR" Value="" />
+        <Item Name="EDIT_BY" Type="STR" Value="" />
+        <Item Name="EDIT_TIME" Type="STR" Value="" />
+      </Items>
+    </Section>
+    <Section ID="2" Name="ReceiveItems" Type="STR">
+      <Items Name="ReceiveItems" Type="SEQ">
+        <Means Name="ReceiveItems">
+          <Mean ID="C00" Name="รหัสสินค้า" Type="STR" />
+          <Mean ID="C01" Name="คลังสินค้า" Type="STR" />          
+          <Mean ID="C02" Name="ชื่อสินค้า" Type="STR" />
+          <Mean ID="C03" Name="หน่วยนับ" Type="STR" />
+          <Mean ID="C04" Name="ราคารับต่อหน่วย" Type="STR" />
+          <Mean ID="C05" Name="จำนวน" Type="STR" />
+          <Mean ID="C06" Name="รวม" Type="STR" />
+        </Means>
+        <Item C00="" C01="" C02="" C03="" C04="" C05="" C06="" />
+      </Items>
+    </Section>
+  </Data>
+</Document>

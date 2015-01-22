@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Types>
+    <Type ID="STR" Detail=""/>
+    <Type ID="XML" Detail=""/>
+  </Types>
+  <Connection>
+    <Item ID="NEXWS01" Type="NEXWS" OfficeSpaceId="OF.0001" Connection="NextwaverDatabase" Database="system" />
+    <Item ID="MSSQL01" Type="MSSQL" Server="localhost" Database="TestProcess" Login="sa" Password="nextwaver" />
+    <Item ID="NEXWS02" Type="NEXWS" OfficeSpaceId="OF.0001" Connection="NextwaverDatabase" Database="timecard" />
+    <Item ID="MSSQL02" Type="MSSQL" Server="EDITOR\SQLEXPRESS" Database="htw_shop" Login="sa" Password="0865418042" />
+    <Item ID="NEXWS03" Type="NEXWS" OfficeSpaceId="OF.0001" Connection="NextwaverDatabase" Database="htw_shop" />
+    <Item ID="MSSQL03" Type="MSSQL" Server="EDITOR\SQLEXPRESS" Database="htw_shop" Login="sa" Password="0865418042" />
+  </Connection>
+  <Process ID="P01" Name="users" WSTable="users" WSConnectionID="NEXWS02" DBConnectionID="MSSQL02" Detail="ข้อมูลผู้ใช้งาน" UpdateDate="">
+    <Query>
+      <Insert>
+        INSERT INTO [users]
+        ([ID],[USERNAME],[PASSWORD]
+        ,[TITLE],[FIRSTNAME],[LASTNAME]
+        ,[POSITION_CODE],[CREATE_DATE]
+        ,[CREATE_BY],[UPDATE_DATE],[UPDATE_BY])
+        VALUES
+        ('@ID@','@USERNAME@','@PASSWORD@'
+        ,'@TITLE@','@FIRSTNAME@','@LASTNAME@'
+        ,'@POSITION_CODE@','@CREATE_DATE@'
+        ,'@CREATE_BY@','@UPDATE_DATE@','@UPDATE_BY@')
+      </Insert>
+      <Delete>DELETE FROM [users] WHERE ID = '@ID@'</Delete>
+    </Query>
+    <Columns>
+      <Column Type="STR" Name="ID" Parameter="@ID@" />
+      <Column Type="STR" Name="USERNAME" Parameter="@USERNAME@"/>
+      <Column Type="STR" Name="PASSWORD" Parameter="@PASSWORD@"/>
+      <Column Type="STR" Name="TITLE" Parameter="@TITLE@"/>
+      <Column Type="STR" Name="FIRSTNAME" Parameter="@FIRSTNAME@"/>
+      <Column Type="STR" Name="LASTNAME" Parameter="@LASTNAME@"/>
+      <Column Type="STR" Name="POSITION_CODE" Parameter="@POSITION_CODE@"/>
+      <Column Type="STR" Name="CREATE_DATE" Parameter="@CREATE_DATE@"/>
+      <Column Type="STR" Name="CREATE_BY" Parameter="@CREATE_BY@"/>
+      <Column Type="STR" Name="UPDATE_DATE" Parameter="@UPDATE_DATE@"/>
+      <Column Type="STR" Name="UPDATE_BY" Parameter="@UPDATE_BY@"/>
+    </Columns>
+  </Process>
+  <Process ID="P02" Name="position" WSTable="position" DBTable="position" WSConnectionID="NEXWS01" DBConnectionID="MSSQL01" Detail="ข้อมูลตำแหน่ง" UpdateDate="">
+    <Query>
+      <Insert>
+        INSERT INTO [position]
+        ([ID],[POSITION_CODE],[POSITION_NAME]
+        ,[PARENT_CODE],[CREATE_DATE],[CREATE_BY]
+        ,[UPDATE_DATE],[UPDATE_BY],[XML_DATA])
+        VALUES
+        ('@ID@','@POSITION_CODE@','@POSITION_NAME@'
+        ,'@PARENT_CODE@','@CREATE_DATE@','@CREATE_BY@'
+        ,'@UPDATE_DATE@','@UPDATE_BY@','@XML_DATA@')
+      </Insert>
+      <Delete>DELETE FROM [position] WHERE ID = '@ID@'</Delete>
+    </Query>
+    <Columns>
+      <Column Type="STR" Name="ID" Parameter="@ID@" />
+      <Column Type="STR" Name="POSITION_CODE" Parameter="@POSITION_CODE@"/>
+      <Column Type="STR" Name="POSITION_NAME" Parameter="@POSITION_NAME@"/>
+      <Column Type="STR" Name="PARENT_CODE" Parameter="@PARENT_CODE@"/>
+      <Column Type="STR" Name="CREATE_DATE" Parameter="@CREATE_DATE@"/>
+      <Column Type="STR" Name="CREATE_BY" Parameter="@CREATE_BY@"/>
+      <Column Type="STR" Name="UPDATE_DATE" Parameter="@UPDATE_DATE@"/>
+      <Column Type="STR" Name="UPDATE_BY" Parameter="@UPDATE_BY@"/>
+      <Column Type="STR" Name="UPDATE_BY" Parameter="@UPDATE_BY@"/>
+      <Column Type="XML" Name="" Parameter="@XML_DATA@"/>
+    </Columns>
+
+  </Process>
+  <Process ID="Customer" Name="Customer" WSTable="Customer" DBTable="Customer" WSConnectionID="NEXWS03" DBConnectionID="MSSQL03" Detail="ข้อมูลลูกค้า" UpdateDate="">
+    <Query>
+      <Insert>
+        INSERT INTO [Customer]
+        ([ID],
+        [CUSTOMER_NAME],
+        [CUSTOMER_ADDRESS],
+        [CUSTOMER_TEL],
+        [CUSTOMER_FAX],
+        [CUSTOMER_LINEID],
+        [CUSTOMER_TAXID],
+        [CONTACT],
+        [DISCOUNT_RATE],
+        [PAYMENT],
+        [CUSTOMER_DETAIL])
+        VALUES
+        ('@ID@',
+        '@CUSTOMER_NAME@',
+        '@CUSTOMER_ADDRESS@',
+        '@CUSTOMER_TEL@',
+        '@CUSTOMER_FAX@',
+        '@CUSTOMER_LINEID@',
+        '@CUSTOMER_TAXID@',
+        '@CONTACT@',
+        '@DISCOUNT_RATE@',
+        '@PAYMENT@',
+        '@CUSTOMER_DETAIL@')
+      </Insert>
+      <Delete>DELETE FROM [Customer] WHERE ID = '@ID@'</Delete>
+    </Query>
+    <Columns>
+      <Column Type="STR" Name="ID" Parameter="@ID@" />
+      <Column Type="STR" Name="CUSTOMER_NAME" Parameter="@CUSTOMER_NAME@"/>
+      <Column Type="STR" Name="CUSTOMER_ADDRESS" Parameter="@CUSTOMER_ADDRESS@"/>
+      <Column Type="STR" Name="CUSTOMER_TEL" Parameter="@CUSTOMER_TEL@"/>
+      <Column Type="STR" Name="CUSTOMER_FAX" Parameter="@CUSTOMER_FAX@"/>
+      <Column Type="STR" Name="CUSTOMER_LINEID" Parameter="@CUSTOMER_LINEID@"/>
+      <Column Type="STR" Name="CUSTOMER_TAXID" Parameter="@CUSTOMER_TAXID@"/>
+      <Column Type="STR" Name="CONTACT" Parameter="@CONTACT@"/>
+      <Column Type="STR" Name="DISCOUNT_RATE" Parameter="@DISCOUNT_RATE@"/>
+      <Column Type="STR" Name="PAYMENT" Parameter="@PAYMENT@"/>
+      <Column Type="STR" Name="CUSTOMER_DETAIL" Parameter="@CUSTOMER_DETAIL@"/>
+      <Column Type="XML" Name="" Parameter="@XML_DATA@"/>
+    </Columns>
+
+  </Process>
+  <Process ID="Warehouse" Name="Warehouse" WSTable="Warehouse" DBTable="Warehouse" WSConnectionID="NEXWS03" DBConnectionID="MSSQL03" Detail="ข้อมูลผู้ขาย" UpdateDate="">
+    <Query>
+      <Insert>
+        INSERT INTO [Warehouse]
+        ([ID],
+        [WAREHOUSE_NAME],
+        [WAREHOUSE_ADDRESS],
+        [WAREHOUSE_TEL],
+        [WAREHOUSE_FAX],
+        [WAREHOUSE_DETAIL])
+        VALUES
+        ('@ID@',
+        '@WAREHOUSE_NAME@',
+        '@WAREHOUSE_ADDRESS@',
+        '@WAREHOUSE_TEL@',
+        '@WAREHOUSE_FAX@',
+        '@WAREHOUSE_DETAIL@')
+      </Insert>
+      <Delete>DELETE FROM [Warehouse] WHERE ID = '@ID@'</Delete>
+    </Query>
+    <Columns>
+      <Column Type="STR" Name="ID" Parameter="@ID@" />
+      <Column Type="STR" Name="WAREHOUSE_NAME" Parameter="@WAREHOUSE_NAME@"/>
+      <Column Type="STR" Name="WAREHOUSE_ADDRESS" Parameter="@WAREHOUSE_ADDRESS@"/>
+      <Column Type="STR" Name="WAREHOUSE_TEL" Parameter="@WAREHOUSE_TEL@"/>
+      <Column Type="STR" Name="WAREHOUSE_FAX" Parameter="@WAREHOUSE_FAX@"/>
+      <Column Type="STR" Name="WAREHOUSE_DETAIL" Parameter="@WAREHOUSE_DETAIL@"/>
+      <Column Type="XML" Name="" Parameter="@XML_DATA@"/>
+    </Columns>
+
+  </Process>
+
+  <Process ID="SaleProduct" Name="SaleProduct" WSTable="SaleProduct" DBTable="SaleProduct" WSConnectionID="NEXWS03" DBConnectionID="MSSQL03" Detail="ใบเสร็จ/ใบกำกับฯ" UpdateDate="">
+    <Query>
+      <Insert>
+        INSERT INTO [Warehouse]
+        ([ID],
+        [WAREHOUSE_NAME],
+        [WAREHOUSE_ADDRESS],
+        [WAREHOUSE_TEL],
+        [WAREHOUSE_FAX],
+        [WAREHOUSE_DETAIL])
+        VALUES
+        ('@ID@',
+        '@WAREHOUSE_NAME@',
+        '@WAREHOUSE_ADDRESS@',
+        '@WAREHOUSE_TEL@',
+        '@WAREHOUSE_FAX@',
+        '@WAREHOUSE_DETAIL@')
+      </Insert>
+      <Delete>DELETE FROM [Warehouse] WHERE ID = '@ID@'</Delete>
+    </Query>
+    <Columns>
+      <Column Type="STR" Name="ID" Parameter="@ID@" />
+      <Column Type="STR" Name="WAREHOUSE_NAME" Parameter="@WAREHOUSE_NAME@"/>
+      <Column Type="STR" Name="WAREHOUSE_ADDRESS" Parameter="@WAREHOUSE_ADDRESS@"/>
+      <Column Type="STR" Name="WAREHOUSE_TEL" Parameter="@WAREHOUSE_TEL@"/>
+      <Column Type="STR" Name="WAREHOUSE_FAX" Parameter="@WAREHOUSE_FAX@"/>
+      <Column Type="STR" Name="WAREHOUSE_DETAIL" Parameter="@WAREHOUSE_DETAIL@"/>
+      <Column Type="XML" Name="" Parameter="@XML_DATA@"/>
+    </Columns>
+
+  </Process>
+
+
+</Config>

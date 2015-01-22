@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UpdateParameterArray">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sql" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="paramname" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateParameterArrayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateParameterArrayResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ErrorLog">
+        <s:complexType />
+      </s:element>
+      <s:element name="ErrorLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ErrorLogResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelectDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Execute">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExecuteResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="ErrorMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertDataResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDATA123">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="img" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameter2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="img2" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDATA123Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDATA123Result" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDATA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="img" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDATAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDATAResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateParameter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Parameter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="img" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateParameterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateParameterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDataResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReadXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USER_NAEM" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReadXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReadXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="splSurvey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="iCommand" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PCODE" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SurveyID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="UnitID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="iStr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="splSurveyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="splSurveyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="arr" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="strConnect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSqlTransactionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UpdateParameterArraySoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateParameterArray" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterArraySoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateParameterArrayResponse" />
+  </wsdl:message>
+  <wsdl:message name="ErrorLogSoapIn">
+    <wsdl:part name="parameters" element="tns:ErrorLog" />
+  </wsdl:message>
+  <wsdl:message name="ErrorLogSoapOut">
+    <wsdl:part name="parameters" element="tns:ErrorLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SelectData" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SelectDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSoapIn">
+    <wsdl:part name="parameters" element="tns:Execute" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertData" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123SoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDATA123" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123SoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDATA123Response" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATASoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDATA" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATASoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDATAResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateParameter" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateParameterResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateData" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ReadXML" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ReadXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="splSurveySoapIn">
+    <wsdl:part name="parameters" element="tns:splSurvey" />
+  </wsdl:message>
+  <wsdl:message name="splSurveySoapOut">
+    <wsdl:part name="parameters" element="tns:splSurveyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlTransaction" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ErrorLogHttpGetIn" />
+  <wsdl:message name="ErrorLogHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataHttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataHttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123HttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="Parameter2" type="s:string" />
+    <wsdl:part name="img2" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123HttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATAHttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATAHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterHttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataHttpGetIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLHttpGetIn">
+    <wsdl:part name="strConnect" type="s:string" />
+    <wsdl:part name="USER_NAEM" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="splSurveyHttpGetIn">
+    <wsdl:part name="strConnect" type="s:string" />
+    <wsdl:part name="iCommand" type="s:string" />
+    <wsdl:part name="PCODE" type="s:string" />
+    <wsdl:part name="SurveyID" type="s:string" />
+    <wsdl:part name="UnitID" type="s:string" />
+    <wsdl:part name="iStr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="splSurveyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ErrorLogHttpPostIn" />
+  <wsdl:message name="ErrorLogHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataHttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SelectDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataHttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123HttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="Parameter2" type="s:string" />
+    <wsdl:part name="img2" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATA123HttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATAHttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDATAHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterHttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="Parameter" type="s:string" />
+    <wsdl:part name="img" type="s1:StringArray" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateParameterHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataHttpPostIn">
+    <wsdl:part name="SQL" type="s:string" />
+    <wsdl:part name="strConnect" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLHttpPostIn">
+    <wsdl:part name="strConnect" type="s:string" />
+    <wsdl:part name="USER_NAEM" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReadXMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="splSurveyHttpPostIn">
+    <wsdl:part name="strConnect" type="s:string" />
+    <wsdl:part name="iCommand" type="s:string" />
+    <wsdl:part name="PCODE" type="s:string" />
+    <wsdl:part name="SurveyID" type="s:string" />
+    <wsdl:part name="UnitID" type="s:string" />
+    <wsdl:part name="iStr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="splSurveyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="UpdateParameterArray">
+      <wsdl:input message="tns:UpdateParameterArraySoapIn" />
+      <wsdl:output message="tns:UpdateParameterArraySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ErrorLog">
+      <wsdl:input message="tns:ErrorLogSoapIn" />
+      <wsdl:output message="tns:ErrorLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <wsdl:input message="tns:SelectDataSoapIn" />
+      <wsdl:output message="tns:SelectDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <wsdl:input message="tns:ExecuteSoapIn" />
+      <wsdl:output message="tns:ExecuteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <wsdl:input message="tns:InsertDataSoapIn" />
+      <wsdl:output message="tns:InsertDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <wsdl:input message="tns:UpdateDATA123SoapIn" />
+      <wsdl:output message="tns:UpdateDATA123SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <wsdl:input message="tns:UpdateDATASoapIn" />
+      <wsdl:output message="tns:UpdateDATASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <wsdl:input message="tns:UpdateParameterSoapIn" />
+      <wsdl:output message="tns:UpdateParameterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <wsdl:input message="tns:UpdateDataSoapIn" />
+      <wsdl:output message="tns:UpdateDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <wsdl:input message="tns:ReadXMLSoapIn" />
+      <wsdl:output message="tns:ReadXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <wsdl:input message="tns:splSurveySoapIn" />
+      <wsdl:output message="tns:splSurveySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTransaction">
+      <wsdl:input message="tns:ExecuteSqlTransactionSoapIn" />
+      <wsdl:output message="tns:ExecuteSqlTransactionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpGet">
+    <wsdl:operation name="ErrorLog">
+      <wsdl:input message="tns:ErrorLogHttpGetIn" />
+      <wsdl:output message="tns:ErrorLogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <wsdl:input message="tns:SelectDataHttpGetIn" />
+      <wsdl:output message="tns:SelectDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <wsdl:input message="tns:InsertDataHttpGetIn" />
+      <wsdl:output message="tns:InsertDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <wsdl:input message="tns:UpdateDATA123HttpGetIn" />
+      <wsdl:output message="tns:UpdateDATA123HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <wsdl:input message="tns:UpdateDATAHttpGetIn" />
+      <wsdl:output message="tns:UpdateDATAHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <wsdl:input message="tns:UpdateParameterHttpGetIn" />
+      <wsdl:output message="tns:UpdateParameterHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <wsdl:input message="tns:UpdateDataHttpGetIn" />
+      <wsdl:output message="tns:UpdateDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <wsdl:input message="tns:ReadXMLHttpGetIn" />
+      <wsdl:output message="tns:ReadXMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <wsdl:input message="tns:splSurveyHttpGetIn" />
+      <wsdl:output message="tns:splSurveyHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpPost">
+    <wsdl:operation name="ErrorLog">
+      <wsdl:input message="tns:ErrorLogHttpPostIn" />
+      <wsdl:output message="tns:ErrorLogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <wsdl:input message="tns:SelectDataHttpPostIn" />
+      <wsdl:output message="tns:SelectDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <wsdl:input message="tns:InsertDataHttpPostIn" />
+      <wsdl:output message="tns:InsertDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <wsdl:input message="tns:UpdateDATA123HttpPostIn" />
+      <wsdl:output message="tns:UpdateDATA123HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <wsdl:input message="tns:UpdateDATAHttpPostIn" />
+      <wsdl:output message="tns:UpdateDATAHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <wsdl:input message="tns:UpdateParameterHttpPostIn" />
+      <wsdl:output message="tns:UpdateParameterHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <wsdl:input message="tns:UpdateDataHttpPostIn" />
+      <wsdl:output message="tns:UpdateDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <wsdl:input message="tns:ReadXMLHttpPostIn" />
+      <wsdl:output message="tns:ReadXMLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <wsdl:input message="tns:splSurveyHttpPostIn" />
+      <wsdl:output message="tns:splSurveyHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateParameterArray">
+      <soap:operation soapAction="http://tempuri.org/UpdateParameterArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ErrorLog">
+      <soap:operation soapAction="http://tempuri.org/ErrorLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <soap:operation soapAction="http://tempuri.org/SelectData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <soap:operation soapAction="http://tempuri.org/Execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <soap:operation soapAction="http://tempuri.org/InsertData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <soap:operation soapAction="http://tempuri.org/UpdateDATA123" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <soap:operation soapAction="http://tempuri.org/UpdateDATA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <soap:operation soapAction="http://tempuri.org/UpdateParameter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <soap:operation soapAction="http://tempuri.org/UpdateData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <soap:operation soapAction="http://tempuri.org/ReadXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <soap:operation soapAction="http://tempuri.org/splSurvey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTransaction">
+      <soap:operation soapAction="http://tempuri.org/ExecuteSqlTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateParameterArray">
+      <soap12:operation soapAction="http://tempuri.org/UpdateParameterArray" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ErrorLog">
+      <soap12:operation soapAction="http://tempuri.org/ErrorLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <soap12:operation soapAction="http://tempuri.org/SelectData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <soap12:operation soapAction="http://tempuri.org/Execute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <soap12:operation soapAction="http://tempuri.org/InsertData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDATA123" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDATA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <soap12:operation soapAction="http://tempuri.org/UpdateParameter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <soap12:operation soapAction="http://tempuri.org/UpdateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <soap12:operation soapAction="http://tempuri.org/ReadXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <soap12:operation soapAction="http://tempuri.org/splSurvey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTransaction">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteSqlTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpGet" type="tns:ServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ErrorLog">
+      <http:operation location="/ErrorLog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <http:operation location="/SelectData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <http:operation location="/InsertData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <http:operation location="/UpdateDATA123" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <http:operation location="/UpdateDATA" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <http:operation location="/UpdateParameter" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <http:operation location="/UpdateData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <http:operation location="/ReadXML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <http:operation location="/splSurvey" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpPost" type="tns:ServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ErrorLog">
+      <http:operation location="/ErrorLog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectData">
+      <http:operation location="/SelectData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <http:operation location="/InsertData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA123">
+      <http:operation location="/UpdateDATA123" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDATA">
+      <http:operation location="/UpdateDATA" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateParameter">
+      <http:operation location="/UpdateParameter" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateData">
+      <http:operation location="/UpdateData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadXML">
+      <http:operation location="/ReadXML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="splSurvey">
+      <http:operation location="/splSurvey" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost/MServiceBussiness/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost/MServiceBussiness/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpGet" binding="tns:ServiceHttpGet">
+      <http:address location="http://localhost/MServiceBussiness/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpPost" binding="tns:ServiceHttpPost">
+      <http:address location="http://localhost/MServiceBussiness/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

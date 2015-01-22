@@ -1,0 +1,54 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="ProductRecord" Type="STR">
+      <Items Name="ProductRecord" Type="FIX">
+        <Item Name="PRODUCT_CODE" Type="STR" Value=""  />
+        <Item Name="PRODUCT_NAME" Type="STR" Value=""  />
+        <Item Name="GROUP_NAME" Type="STR" Value=""  />
+        <Item Name="CATEGORY_NAME" Type="STR" Value=""  />
+        <Item Name="UNIT_NAME" Type="STR" Value=""  />
+        <Item Name="WAREHOUSE_NAME" Type="STR" Value=""  />
+        <Item Name="POINT_OF_ORDER" Type="STR" Value=""  />
+        <Item Name="PRICE1" Type="STR" Value=""  />
+        <Item Name="PRICE2" Type="STR" Value=""  />
+        <Item Name="PRICE3" Type="STR" Value=""  />
+        <Item Name="PRICE4" Type="STR" Value=""  />
+        <Item Name="PRICE5" Type="STR" Value=""  />
+        <Item Name="PRICE6" Type="STR" Value=""  />
+        <Item Name="PRICE7" Type="STR" Value=""  />
+        <Item Name="PRICE8" Type="STR" Value=""  />
+        <Item Name="PRICE9" Type="STR" Value=""  />
+        <Item Name="PRICE10" Type="STR" Value=""  />
+        <Item Name="PRODUCT_DETAIL" Type="STR" Value=""  />
+        <Item Name="CREATE_BY" Type="STR" Value=""  />
+        <Item Name="CREATE_TIME" Type="STR" Value=""  />
+        <Item Name="EDIT_BY" Type="STR" Value=""  />
+        <Item Name="EDIT_TIME" Type="STR" Value=""  />
+      </Items>
+    </Section>
+    <Section ID="2" Name="Stacks" Type="STR">
+      <Items Name="Stacks" Type="SEQ">
+        <Means Name="ReceiveItems">
+          <Mean ID="C00" Name="ประเภทเอกสาร" Type="STR" />
+          <Mean ID="C01" Name="หมายเลขเอกสาร" Type="STR" />
+          <Mean ID="C02" Name="ลำดับรายการที่" Type="STR" />
+          <Mean ID="C03" Name="ชื่อคลังสินค้า" Type="STR" />          
+          <Mean ID="C04" Name="ราคาต่อหน่วย" Type="STR" />
+          <Mean ID="C05" Name="จำนวน" Type="STR" />
+          <Mean ID="C06" Name="รวมเงิน" Type="STR" />
+          <Mean ID="C07" Name="สร้างเมื่อ" Type="STR" />
+          <Mean ID="C08" Name="สร้างโดย" Type="STR" />
+          <Mean ID="C09" Name="แก้ไขเมื่อ" Type="STR" />
+          <Mean ID="C10" Name="แก้ไขโดย" Type="STR" />
+        </Means>
+      </Items>
+    </Section>
+  </Data>
+</Document>

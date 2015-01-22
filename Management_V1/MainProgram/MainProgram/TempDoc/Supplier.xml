@@ -1,0 +1,29 @@
+<Document ID="" Name="">
+  <Profile>
+    <Section ID="1" Name="Who"></Section>
+    <Section ID="2" Name="What"></Section>
+    <Section ID="3" Name="Where"></Section>
+    <Section ID="4" Name="When"></Section>
+    <Section ID="5" Name="Why"></Section>
+  </Profile>
+  <Data>
+    <Section ID="1" Name="Supplier" Type="STR">
+      <Items Name="Supplier" Type="FIX">
+        <Item Name="SUPPLIER_NAME" Type="STR" Value=""  />
+        <Item Name="SUPPLIER_ADDRESS" Type="STR" Value=""  />
+        <Item Name="SUPPLIER_TEL"  Type="STR" Value=""  />
+        <Item Name="SUPPLIER_FAX" Type="STR" Value=""  />
+        <Item Name="SUPPLIER_LINEID" Type="STR" Value=""  />
+        <Item Name="DISCOUNT_RATE" Type="STR" Value=""  />
+        <Item Name="PAYMENT" Type="STR" Value=""  />
+        <Item Name="CONTACT" Type="STR" Value=""  />
+        <Item Name="CREDIT" Type="STR" Value=""  />
+        <Item Name="SUPPLIER_DETAIL" Type="STR" Value=""  />
+        <Item Name="CREATE_BY" Type="STR" Value=""  />
+        <Item Name="CREATE_TIME" Type="STR" Value=""  />
+        <Item Name="EDIT_BY" Type="STR" Value=""  />
+        <Item Name="EDIT_TIME" Type="STR" Value=""  />
+      </Items>
+    </Section>
+  </Data>
+</Document>
